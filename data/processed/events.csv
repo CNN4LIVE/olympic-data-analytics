@@ -1,0 +1,376 @@
+Sport,Event,event_id
+Basketball,Basketball Men's Basketball,1
+Judo,Judo Men's Extra-Lightweight,2
+Badminton,Badminton Men's Singles,3
+Sailing,Sailing Women's Windsurfer,4
+Athletics,Athletics Men's Shot Put,5
+Handball,Handball Women's Handball,6
+Weightlifting,Weightlifting Women's Super-Heavyweight,7
+Wrestling,"Wrestling Men's Light-Heavyweight, Greco-Roman",8
+Water Polo,Water Polo Men's Water Polo,9
+Sailing,Sailing Mixed Three Person Keelboat,10
+Hockey,Hockey Women's Hockey,11
+Rowing,Rowing Men's Lightweight Double Sculls,12
+Sailing,Sailing Men's Two Person Dinghy,13
+Athletics,"Athletics Men's 1,500 metres",14
+Swimming,Swimming Men's 100 metres Butterfly,15
+Swimming,Swimming Men's 200 metres Butterfly,16
+Swimming,Swimming Men's 4 x 100 metres Medley Relay,17
+Football,Football Women's Football,18
+Equestrianism,"Equestrianism Mixed Jumping, Individual",19
+Shooting,Shooting Men's Trap,20
+Boxing,Boxing Men's Light-Welterweight,21
+Athletics,Athletics Women's Javelin Throw,22
+Wrestling,"Wrestling Men's Heavyweight, Freestyle",23
+Gymnastics,Gymnastics Men's Individual All-Around,24
+Gymnastics,Gymnastics Men's Floor Exercise,25
+Gymnastics,Gymnastics Men's Parallel Bars,26
+Gymnastics,Gymnastics Men's Horizontal Bar,27
+Gymnastics,Gymnastics Men's Rings,28
+Gymnastics,Gymnastics Men's Pommelled Horse,29
+Athletics,Athletics Men's Pole Vault,30
+Taekwondo,Taekwondo Men's Flyweight,31
+Athletics,"Athletics Men's 5,000 metres",32
+Weightlifting,Weightlifting Men's Middleweight,33
+Football,Football Men's Football,34
+Rowing,Rowing Men's Coxless Pairs,35
+Fencing,"Fencing Men's epee, Individual",36
+Judo,Judo Men's Half-Middleweight,37
+Taekwondo,Taekwondo Women's Flyweight,38
+Boxing,Boxing Men's Flyweight,39
+Basketball,Basketball Women's Basketball,40
+Diving,Diving Men's Platform,41
+Canoeing,"Canoeing Men's Canadian Doubles, 500 metres",42
+Canoeing,"Canoeing Men's Canadian Doubles, 1,000 metres",43
+Canoeing,"Canoeing Men's Kayak Fours, 1,000 metres",44
+Handball,Handball Men's Handball,45
+Rowing,Rowing Women's Coxless Pairs,46
+Boxing,Boxing Men's Middleweight,47
+Judo,Judo Men's Lightweight,48
+Tennis,Tennis Men's Doubles,49
+Shooting,Shooting Mixed Skeet,50
+Wrestling,"Wrestling Men's Featherweight, Freestyle",51
+Sailing,Sailing Mixed Two Person Heavyweight Dinghy,52
+Athletics,Athletics Women's Shot Put,53
+Rowing,Rowing Men's Coxed Eights,54
+Cycling,Cycling Women's Sprint,55
+Cycling,Cycling Women's 500 metres Time Trial,56
+Athletics,Athletics Men's 110 metres Hurdles,57
+Shooting,Shooting Mixed Trap,58
+Athletics,Athletics Women's Marathon,59
+Athletics,Athletics Men's 100 metres,60
+Athletics,Athletics Men's High Jump,61
+Fencing,"Fencing Men's Foil, Individual",62
+Fencing,"Fencing Men's Foil, Team",63
+Fencing,"Fencing Men's Sabre, Team",64
+Boxing,Boxing Men's Lightweight,65
+Boxing,Boxing Men's Welterweight,66
+Rowing,Rowing Men's Quadruple Sculls,67
+Rowing,Rowing Men's Double Sculls,68
+Rowing,Rowing Men's Coxed Pairs,69
+Athletics,Athletics Men's 400 metres Hurdles,70
+Athletics,Athletics Men's 4 x 100 metres Relay,71
+Athletics,Athletics Men's 400 metres,72
+Athletics,Athletics Men's Hammer Throw,73
+Weightlifting,Weightlifting Men's Lightweight,74
+Athletics,Athletics Men's Long Jump,75
+Weightlifting,Weightlifting Men's Featherweight,76
+Athletics,Athletics Men's 800 metres,77
+Cycling,"Cycling Men's Road Race, Individual",78
+Swimming,Swimming Men's 100 metres Freestyle,79
+Hockey,Hockey Men's Hockey,80
+Rowing,Rowing Women's Single Sculls,81
+Swimming,Swimming Men's 50 metres Freestyle,82
+Weightlifting,Weightlifting Women's Featherweight,83
+Water Polo,Water Polo Women's Water Polo,84
+Weightlifting,Weightlifting Men's Heavyweight,85
+Equestrianism,"Equestrianism Mixed Three-Day Event, Individual",86
+Equestrianism,"Equestrianism Mixed Three-Day Event, Team",87
+Sailing,Sailing Women's Three Person Keelboat,88
+Cycling,"Cycling Women's Road Race, Individual",89
+Softball,Softball Women's Softball,90
+Archery,Archery Women's Individual,91
+Wrestling,"Wrestling Men's Heavyweight, Greco-Roman",92
+Volleyball,Volleyball Men's Volleyball,93
+Taekwondo,Taekwondo Women's Heavyweight,94
+Synchronized Swimming,Synchronized Swimming Women's Duet,95
+Synchronized Swimming,Synchronized Swimming Women's Team,96
+Gymnastics,Gymnastics Men's Team All-Around,97
+Gymnastics,Gymnastics Men's Horse Vault,98
+Taekwondo,Taekwondo Women's Featherweight,99
+Athletics,Athletics Men's Marathon,100
+Athletics,Athletics Men's 4 x 400 metres Relay,101
+Athletics,"Athletics Women's 3,000 metres",102
+Diving,Diving Women's Platform,103
+Shooting,"Shooting Men's Air Rifle, 10 metres",104
+Boxing,Boxing Men's Featherweight,105
+Athletics,Athletics Men's 200 metres,106
+Weightlifting,Weightlifting Men's Flyweight,107
+Weightlifting,Weightlifting Men's Light-Heavyweight,108
+Wrestling,"Wrestling Men's Lightweight, Greco-Roman",109
+Wrestling,"Wrestling Men's Super-Heavyweight, Greco-Roman",110
+Shooting,"Shooting Men's Free Pistol, 50 metres",111
+Shooting,"Shooting Men's Air Pistol, 10 metres",112
+Fencing,"Fencing Men's epee, Team",113
+Rowing,Rowing Men's Coxless Fours,114
+Boxing,Boxing Men's Light-Flyweight,115
+Boxing,Boxing Men's Super-Heavyweight,116
+Shooting,"Shooting Women's Air Rifle, 10 metres",117
+Weightlifting,Weightlifting Men's Middle-Heavyweight,118
+Athletics,Athletics Men's Javelin Throw,119
+Volleyball,Volleyball Women's Volleyball,120
+Wrestling,"Wrestling Men's Welterweight, Greco-Roman",121
+Wrestling,"Wrestling Men's Middleweight, Greco-Roman",122
+Athletics,"Athletics Men's 10,000 metres",123
+Athletics,"Athletics Men's 3,000 metres Steeplechase",124
+Wrestling,"Wrestling Men's Middleweight, Freestyle",125
+Swimming,Swimming Women's 100 metres Backstroke,126
+Swimming,Swimming Women's 200 metres Backstroke,127
+Swimming,Swimming Women's 4 x 100 metres Medley Relay,128
+Wrestling,"Wrestling Men's Light-Heavyweight, Freestyle",129
+Modern Pentathlon,Modern Pentathlon Men's Individual,130
+Modern Pentathlon,Modern Pentathlon Men's Team,131
+Athletics,Athletics Women's 200 metres,132
+Table Tennis,Table Tennis Women's Singles,133
+Table Tennis,Table Tennis Women's Doubles,134
+Shooting,Shooting Men's Skeet,135
+Swimming,Swimming Women's 50 metres Freestyle,136
+Shooting,"Shooting Men's Small-Bore Rifle, Three Positions, 50 metres",137
+Shooting,"Shooting Men's Rapid-Fire Pistol, 25 metres",138
+Athletics,Athletics Women's 100 metres,139
+Athletics,Athletics Men's Triple Jump,140
+Wrestling,"Wrestling Men's Flyweight, Greco-Roman",141
+Swimming,Swimming Men's 400 metres Freestyle,142
+Weightlifting,Weightlifting Women's Lightweight,143
+Athletics,Athletics Women's Long Jump,144
+Fencing,"Fencing Women's epee, Individual",145
+Swimming,Swimming Men's 200 metres Freestyle,146
+Swimming,Swimming Men's 4 x 100 metres Freestyle Relay,147
+Swimming,Swimming Men's 4 x 200 metres Freestyle Relay,148
+Swimming,Swimming Men's 100 metres Backstroke,149
+Swimming,Swimming Men's 200 metres Backstroke,150
+Swimming,Swimming Men's 200 metres Individual Medley,151
+Swimming,Swimming Men's 400 metres Individual Medley,152
+Boxing,Boxing Men's Light-Middleweight,153
+Tennis,Tennis Men's Singles,154
+Boxing,Boxing Men's Heavyweight,155
+Wrestling,"Wrestling Men's Bantamweight, Freestyle",156
+Wrestling,"Wrestling Men's Flyweight, Freestyle",157
+Athletics,"Athletics Women's 5,000 metres",158
+Weightlifting,Weightlifting Women's Light-Heavyweight,159
+Weightlifting,Weightlifting Women's Heavyweight,160
+Athletics,Athletics Men's Discus Throw,161
+Taekwondo,Taekwondo Men's Featherweight,162
+Taekwondo,Taekwondo Men's Welterweight,163
+Judo,Judo Men's Heavyweight,164
+Cycling,Cycling Men's Sprint,165
+Boxing,Boxing Men's Bantamweight,166
+Wrestling,"Wrestling Men's Lightweight, Freestyle",167
+Baseball,Baseball Men's Baseball,168
+Rowing,Rowing Men's Coxed Fours,169
+Cycling,Cycling Men's 100 kilometres Team Time Trial,170
+Fencing,"Fencing Men's Sabre, Individual",171
+Rhythmic Gymnastics,Rhythmic Gymnastics Women's Group,172
+Gymnastics,Gymnastics Women's Individual All-Around,173
+Gymnastics,Gymnastics Women's Team All-Around,174
+Gymnastics,Gymnastics Women's Floor Exercise,175
+Gymnastics,Gymnastics Women's Horse Vault,176
+Gymnastics,Gymnastics Women's Uneven Bars,177
+Gymnastics,Gymnastics Women's Balance Beam,178
+Diving,Diving Women's Springboard,179
+Diving,Diving Women's Synchronized Springboard,180
+Athletics,"Athletics Women's 10,000 metres",181
+Judo,Judo Women's Half-Middleweight,182
+Athletics,Athletics Men's Decathlon,183
+Athletics,Athletics Women's 4 x 100 metres Relay,184
+Athletics,"Athletics Women's 1,500 metres",185
+Shooting,"Shooting Women's Air Pistol, 10 metres",186
+Shooting,"Shooting Women's Sporting Pistol, 25 metres",187
+Canoeing,"Canoeing Men's Kayak Doubles, 500 metres",188
+Canoeing,"Canoeing Men's Kayak Singles, 500 metres",189
+Canoeing,"Canoeing Men's Kayak Singles, 1,000 metres",190
+Shooting,"Shooting Men's Running Target, 50 metres",191
+Judo,Judo Women's Half-Heavyweight,192
+Athletics,Athletics Women's Pole Vault,193
+Rugby Sevens,Rugby Sevens Women's Rugby Sevens,194
+Table Tennis,Table Tennis Men's Team,195
+Rowing,Rowing Women's Coxed Eights,196
+Athletics,Athletics Women's 4 x 400 metres Relay,197
+Cycling,"Cycling Men's 1,000 metres Time Trial",198
+Cycling,"Cycling Men's Individual Pursuit, 4,000 metres",199
+Wrestling,"Wrestling Men's Welterweight, Freestyle",200
+Wrestling,"Wrestling Men's Bantamweight, Greco-Roman",201
+Rowing,Rowing Women's Lightweight Double Sculls,202
+Athletics,Athletics Women's 800 metres,203
+Rowing,Rowing Women's Coxed Quadruple Sculls,204
+Rhythmic Gymnastics,Rhythmic Gymnastics Women's Individual,205
+Canoeing,"Canoeing Men's Kayak Singles, Slalom",206
+Archery,Archery Men's Individual,207
+Archery,Archery Men's Team,208
+Swimming,Swimming Women's 4 x 100 metres Freestyle Relay,209
+Athletics,Athletics Women's 400 metres,210
+Trampolining,Trampolining Men's Individual,211
+Swimming,Swimming Men's 200 metres Breaststroke,212
+Beach Volleyball,Beach Volleyball Men's Beach Volleyball,213
+Cycling,"Cycling Women's Mountainbike, Cross-Country",214
+Triathlon,Triathlon Women's Olympic Distance,215
+Cycling,"Cycling Men's Mountainbike, Cross-Country",216
+Athletics,Athletics Women's 400 metres Hurdles,217
+Diving,Diving Men's Springboard,218
+Wrestling,"Wrestling Men's Featherweight, Greco-Roman",219
+Table Tennis,Table Tennis Men's Singles,220
+Shooting,"Shooting Men's Small-Bore Rifle, Prone, 50 metres",221
+Judo,Judo Men's Open Class,222
+Rowing,Rowing Women's Quadruple Sculls,223
+Athletics,Athletics Women's Pentathlon,224
+Cycling,"Cycling Men's Team Pursuit, 4,000 metres",225
+Weightlifting,Weightlifting Women's Middleweight,226
+Swimming,"Swimming Men's 1,500 metres Freestyle",227
+Wrestling,"Wrestling Women's Light-Heavyweight, Freestyle",228
+Athletics,Athletics Women's High Jump,229
+Canoeing,"Canoeing Women's Kayak Fours, 500 metres",230
+Sailing,Sailing Men's One Person Dinghy,231
+Trampolining,Trampolining Women's Individual,232
+Judo,Judo Men's Middleweight,233
+Judo,Judo Men's Half-Lightweight,234
+Fencing,"Fencing Women's Foil, Team",235
+Swimming,Swimming Women's 200 metres Butterfly,236
+Swimming,Swimming Women's 400 metres Individual Medley,237
+Athletics,Athletics Men's 20 kilometres Walk,238
+Judo,Judo Men's Half-Heavyweight,239
+Archery,Archery Women's Team,240
+Athletics,Athletics Men's 50 kilometres Walk,241
+Rowing,Rowing Women's Double Sculls,242
+Boxing,Boxing Men's Light-Heavyweight,243
+Boxing,Boxing Women's Flyweight,244
+Athletics,Athletics Women's 100 metres Hurdles,245
+Sailing,Sailing Mixed One Person Dinghy,246
+Wrestling,"Wrestling Women's Heavyweight, Freestyle",247
+Badminton,Badminton Mixed Doubles,248
+Sailing,Sailing Mixed Two Person Keelboat,249
+Table Tennis,Table Tennis Men's Doubles,250
+Wrestling,"Wrestling Men's Light-Flyweight, Freestyle",251
+Wrestling,"Wrestling Women's Featherweight, Freestyle",252
+Swimming,Swimming Women's 200 metres Freestyle,253
+Swimming,Swimming Women's 400 metres Freestyle,254
+Swimming,Swimming Women's 200 metres Individual Medley,255
+Sailing,Sailing Men's Windsurfer,256
+Rugby Sevens,Rugby Sevens Men's Rugby Sevens,257
+Wrestling,"Wrestling Women's Lightweight, Freestyle",258
+Modern Pentathlon,Modern Pentathlon Women's Individual,259
+Canoeing,"Canoeing Men's Canadian Doubles, Slalom",260
+Judo,Judo Women's Half-Lightweight,261
+Shooting,"Shooting Mixed Small-Bore Rifle, Three Positions, 50 metres",262
+Shooting,"Shooting Mixed Small-Bore Rifle, Prone, 50 metres",263
+Swimming,Swimming Women's 800 metres Freestyle,264
+Sailing,Sailing Women's Two Person Dinghy,265
+Athletics,Athletics Women's Discus Throw,266
+Athletics,Athletics Women's Heptathlon,267
+Cycling,Cycling Men's Points Race,268
+Synchronized Swimming,Synchronized Swimming Women's Solo,269
+Equestrianism,"Equestrianism Mixed Dressage, Individual",270
+Equestrianism,"Equestrianism Mixed Dressage, Team",271
+Swimming,Swimming Men's 100 metres Breaststroke,272
+Shooting,"Shooting Mixed Free Pistol, 50 metres",273
+Fencing,"Fencing Women's Foil, Individual",274
+Sailing,Sailing Women's Skiff,275
+Triathlon,Triathlon Men's Olympic Distance,276
+Sailing,Sailing Women's One Person Dinghy,277
+Beach Volleyball,Beach Volleyball Women's Beach Volleyball,278
+Weightlifting,Weightlifting Men's Super-Heavyweight,279
+Rowing,Rowing Men's Lightweight Coxless Fours,280
+Wrestling,"Wrestling Men's Light-Flyweight, Greco-Roman",281
+Golf,Golf Men's Individual,282
+Canoeing,"Canoeing Men's Canadian Singles, 1,000 metres",283
+Sailing,Sailing Mixed 5.5 metres,284
+Equestrianism,"Equestrianism Mixed Jumping, Team",285
+Diving,Diving Men's Synchronized Platform,286
+Canoeing,"Canoeing Women's Kayak Singles, Slalom",287
+Weightlifting,Weightlifting Women's Flyweight,288
+Swimming,Swimming Women's 100 metres Breaststroke,289
+Swimming,Swimming Women's 200 metres Breaststroke,290
+Shooting,"Shooting Women's Small-Bore Rifle, Three Positions, 50 metres",291
+Swimming,Swimming Women's 100 metres Butterfly,292
+Weightlifting,Weightlifting Men's Heavyweight I,293
+Athletics,"Athletics Women's 3,000 metres Steeplechase",294
+Shooting,Shooting Women's Trap,295
+Badminton,Badminton Men's Doubles,296
+Swimming,Swimming Women's 4 x 200 metres Freestyle Relay,297
+Rowing,Rowing Men's Single Sculls,298
+Athletics,Athletics Women's 20 kilometres Walk,299
+Athletics,Athletics Women's 80 metres Hurdles,300
+Sailing,Sailing Men's One Person Heavyweight Dinghy,301
+Cycling,Cycling Men's Madison,302
+Weightlifting,Weightlifting Men's Heavyweight II,303
+Canoeing,"Canoeing Women's Kayak Doubles, 500 metres",304
+Cycling,Cycling Men's Individual Time Trial,305
+Judo,Judo Women's Heavyweight,306
+Canoeing,"Canoeing Men's Kayak Doubles, 1,000 metres",307
+Wrestling,"Wrestling Men's Super-Heavyweight, Freestyle",308
+Fencing,"Fencing Women's Sabre, Team",309
+Swimming,Swimming Women's 100 metres Freestyle,310
+Shooting,Shooting Men's Double Trap,311
+Weightlifting,Weightlifting Men's Bantamweight,312
+Taekwondo,Taekwondo Men's Heavyweight,313
+Sailing,Sailing Mixed Windsurfer,314
+Taekwondo,Taekwondo Women's Welterweight,315
+Shooting,"Shooting Mixed Free Rifle, Three Positions, 300 metres",316
+Shooting,"Shooting Mixed Rapid-Fire Pistol, 25 metres",317
+Canoeing,"Canoeing Men's Canadian Singles, Slalom",318
+Shooting,"Shooting Men's Free Rifle, Three Positions, 300 metres",319
+Sailing,Sailing Mixed Multihull,320
+Badminton,Badminton Women's Singles,321
+Badminton,Badminton Women's Doubles,322
+Diving,Diving Women's Synchronized Platform,323
+Athletics,Athletics Women's Triple Jump,324
+Boxing,Boxing Women's Lightweight,325
+Cycling,Cycling Women's BMX,326
+Canoeing,"Canoeing Men's Kayak Doubles, 200 metres",327
+Canoeing,"Canoeing Women's Kayak Singles, 500 metres",328
+Athletics,Athletics Women's 10 kilometres Walk,329
+Judo,Judo Women's Extra-Lightweight,330
+Diving,Diving Men's Synchronized Springboard,331
+Sailing,Sailing Mixed Two Person Dinghy,332
+Shooting,"Shooting Men's Running Target, 10 metres",333
+Cycling,Cycling Men's BMX,334
+Judo,Judo Women's Middleweight,335
+Judo,Judo Women's Lightweight,336
+Canoeing,"Canoeing Women's Kayak Singles, 200 metres",337
+Tennis,Tennis Women's Singles,338
+Canoeing,Canoeing Men's Kayak Relay 4 x 500 metres,339
+Rowing,Rowing Women's Coxed Fours,340
+Canoeing,"Canoeing Men's Canadian Singles, 500 metres",341
+Fencing,"Fencing Women's epee, Team",342
+Sailing,Sailing Mixed Skiff,343
+Swimming,Swimming Women's 10 kilometres Open Water,344
+Boxing,Boxing Women's Middleweight,345
+Sailing,Sailing Men's Skiff,346
+Shooting,Shooting Women's Skeet,347
+Tennis,Tennis Women's Doubles,348
+Cycling,Cycling Women's Team Pursuit,349
+Shooting,"Shooting Mixed Running Target, 50 metres",350
+Cycling,Cycling Women's Individual Time Trial,351
+Fencing,"Fencing Women's Sabre, Individual",352
+Cycling,Cycling Men's Omnium,353
+Equestrianism,"Equestrianism Men's Three-Day Event, Individual",354
+Equestrianism,"Equestrianism Men's Three-Day Event, Team",355
+Cycling,"Cycling Women's Individual Pursuit, 3,000 metres",356
+Cycling,Cycling Women's Points Race,357
+Sailing,Sailing Men's Two Person Keelboat,358
+Cycling,Cycling Men's Keirin,359
+Cycling,Cycling Men's Team Sprint,360
+Tennis,Tennis Mixed Doubles,361
+Golf,Golf Women's Individual,362
+Wrestling,"Wrestling Women's Flyweight, Freestyle",363
+Swimming,Swimming Men's 10 kilometres Open Water,364
+Wrestling,"Wrestling Women's Middleweight, Freestyle",365
+Table Tennis,Table Tennis Women's Team,366
+Athletics,Athletics Women's Hammer Throw,367
+Canoeing,"Canoeing Men's Kayak Singles, 200 metres",368
+Cycling,"Cycling Men's Tandem Sprint, 2,000 metres",369
+Shooting,Shooting Women's Double Trap,370
+Rowing,Rowing Women's Coxless Fours,371
+Cycling,Cycling Women's Keirin,372
+Canoeing,"Canoeing Men's Canadian Singles, 200 metres",373
+Cycling,Cycling Women's Omnium,374
+Cycling,Cycling Women's Team Sprint,375
