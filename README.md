@@ -5,6 +5,7 @@ Business Intelligence &amp; Data Analytics case study analyzing historical Olymp
 The processed datasets were loaded into a **PostgreSQL 18** relational database to enable structured data analysis and query optimization.
 
 ### 📐 Database Schema Overview
+![Entity Relationship Diagram](docs/images/erd_diagram.png) 
 
 The relational structure consists of four main entities:
 * **`Athletes`**: Stores unique athlete profiles (`athlete_id`, `name`, `sex`).
