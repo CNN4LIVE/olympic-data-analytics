@@ -6,7 +6,6 @@ The processed datasets were loaded into a **PostgreSQL 18** relational database 
 
 ### 📐 Database Schema Overview
 ![Entity Relationship Diagram](docs/images/erd_diagram.png) 
-
 The relational structure consists of four main entities:
 * **`Athletes`**: Stores unique athlete profiles (`athlete_id`, `name`, `sex`).
 * **`NOC_Regions`**: Maps National Olympic Committee codes to region names (`noc`, `region_name`).
