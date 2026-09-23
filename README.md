@@ -1,28 +1,48 @@
-# olympic-data-analytics
-Business Intelligence &amp; Data Analytics case study analyzing historical Olympic Games data for news media and athletic performance coaches
-## 🗄️ SQL & Relational Database Management
+# 🥇 Olympic Games Data Analytics & Dashboard
 
-The processed datasets were loaded into a **PostgreSQL 18** relational database to enable structured data analysis and query optimization.
-
-### 📐 Database Schema Overview
-![Entity Relationship Diagram](docs/images/erd_diagram.png) 
-The relational structure consists of four main entities:
-* **`Athletes`**: Stores unique athlete profiles (`athlete_id`, `name`, `sex`).
-* **`NOC_Regions`**: Maps National Olympic Committee codes to region names (`noc`, `region_name`).
-* **`Events`**: Contains sport categories and specific Olympic events (`event_id`, `sport`, `event_name`).
-* **`Athlete_Events`**: Fact table linking athletes, events, and NOC regions with performance details (`participation_id`, `year`, `age`, `height_cm`, `weight_kg`, `medal`).
-
-Custom **ENUM** types were created for `medal_enum` ('Gold', 'Silver', 'Bronze', 'No Medal') and `sex_enum` ('M', 'F') to enforce data integrity.
+Ein End-to-End-Datenanalyseprojekt zur Auswertung historischer Daten der Olympischen Spiele (1896 – Heute) unter Nutzung von **Python**, **PostgreSQL**, **SQL** und **Streamlit**.
 
 ---
 
-### 📊 Key SQL Queries & Analytics
+## 📌 Projektübersicht
 
-All queries and database initialization scripts are structured under the `/sql` directory:
-* `sql/01_schema.sql`: DDL commands for ENUM types, primary keys, and foreign key relationships.
-* `sql/02_queries.sql`: Data import (`COPY`) commands and exploratory analytical SQL queries.
+Dieses Projekt umfasst die vollständige Datenpipeline:
+1. **Datenbereinigung & ETL**: Extrahieren, Bereinigen und Laden von Rohdaten (CSV) in eine relationale PostgreSQL-Datenbank.
+2. **Datenmodellierung**: Relationales Schema mit Primär- und Fremdschlüsseln für Athleten, Ereignisse, Disziplinen und Länder.
+3. **SQL-Analyse**: Komplexe analytische Queries zur Auswertung von Medaillenspiegeln, Altersstrukturen und Geschlechterentwicklung.
+4. **Interaktives Dashboard**: Visualisierung der Ergebnisse in einem Streamlit-Dashboard mit Plotly-Diagrammen.
 
-#### Sample Analyses Included:
-1. **Top 10 All-Time Medal Nations**: Aggregates total medals won by region.
-2. **Most Successful Athletes**: Ranks athletes by gold medals and overall medal count.
-3. **Physical Profiles by Sport**: Calculates average height and weight per Olympic sport category
+---
+
+## 🛠️ Tech Stack & Werkzeuge
+
+* **Sprachen**: Python 3.14+, SQL
+* **Datenbank**: PostgreSQL 16+ / pgAdmin 4
+* **Python Bibliotheken**:
+  * `pandas` & `sqlalchemy` (Datenverarbeitung & DB-Anbindung)
+  * `psycopg2-binary` (PostgreSQL Treiber)
+  * `streamlit` & `plotly` (Dashboard & Visualisierung)
+* **IDE & Tools**: Visual Studio Code, Git & GitHub
+
+---
+
+## 📁 Projektstruktur
+
+```text
+olympic-data-analytics/
+│
+├── data/                  # Rohdaten (athlete_events.csv, noc_regions.csv)
+├── sql/                   # SQL-Skripte
+│   ├── 01_schema.sql      # Datenbank-Schema & Tabellen
+│   └── 02_queries.sql     # Analytische SQL-Abfragen
+├── src/                   # Python-Quellcode (ETL & DB)
+│   ├── db_connection.py   # PostgreSQL Verbindungs-Setup
+│   ├── create_tables.py   # Tabellen-Erstellung via SQLAlchemy
+│   └── load_data.py       # ETL-Pipeline zur Befüllung der DB
+├── dashboards/            # Visualisierung
+│   └── app.py             # Streamlit Dashboard App
+├── docs/                  # Dokumentation & ERD-Diagramm
+│   └── erd.md             # Entity Relationship Diagramm
+├── .gitignore
+├── requirements.txt
+└── README.md
