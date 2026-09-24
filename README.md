@@ -1,3 +1,15 @@
+# 🏅 Olympic Games Data Analytics & Dashboard
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://olympic-data-analytics-5bd3n7j3r78oqlkhdfwxa5.streamlit.app)
+
+👉 **[Hier geht es zum Live-Dashboard](https://olympic-data-analytics-5bd3n7j3r78oqlkhdfwxa5.streamlit.app)**
+
+---
+
+## 📌 Projektübersicht
+...
+
+
 # 🥇 Olympic Games Data Analytics & Dashboard
 
 Ein End-to-End-Datenanalyseprojekt zur Auswertung historischer Daten der Olympischen Spiele (1896 – Heute) unter Nutzung von **Python**, **PostgreSQL**, **SQL** und **Streamlit**.
