@@ -33,8 +33,8 @@ st.sidebar.header("🔍 Filter")
 def load_filter_options():
     with engine.connect() as conn:
         df_years = pd.read_sql("SELECT DISTINCT year FROM athlete_events ORDER BY year DESC", conn)
-        df_nocs = pd.read_sql("SELECT DISTINCT noc FROM athlete_events WHERE noc IS NOT NULL ORDER BY noc", conn)
-    return df_years['year'].tolist(), df_nocs['noc'].tolist()
+        df_nocs = pd.read_sql("SELECT DISTINCT noc FROM athlete_events WHERE noc IS NOT NULL ORDER BY noc ASC", conn)
+        return df_years['year'].tolist(), df_nocs['noc'].tolist()
 
 try:
     all_years, all_nocs = load_filter_options()
@@ -90,7 +90,7 @@ query_trend = f"""
 with engine.connect() as conn:
     df_medals = pd.read_sql(query_medals, conn)
     df_gender = pd.read_sql(query_gender, conn)
-    df_trend = pd.read_sql(query_trend, conn) if noc_clause else pd.DataFrame()
+    df_trend  =  pd.read_sql(query_trend, conn) if noc_clause else pd.DataFrame()
     
     total_athletes = pd.read_sql("SELECT COUNT(DISTINCT athlete_id) FROM athlete_events", conn).iloc[0, 0]
     total_events = pd.read_sql("SELECT COUNT(DISTINCT event) FROM athlete_events", conn).iloc[0, 0]
