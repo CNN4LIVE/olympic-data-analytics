@@ -1,21 +1,32 @@
 import os
 import urllib.parse
-import pandas as pd
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
 load_dotenv()
 
-DB_HOST = os.getenv("DB_HOST", "localhost")
-DB_PORT = os.getenv("DB_PORT", "5432")
-DB_NAME = os.getenv("DB_NAME", "olympics_db")
-DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASS = os.getenv("DB_PASSWORD") or os.getenv("DB_PASS", "XFiles77!")
-
 def get_db_engine():
-    safe_password = urllib.parse.quote_plus(DB_PASS)
-    safe_user = urllib.parse.quote_plus(DB_USER)
-    
-    # sslmode=require ist zwingend für Neon.tech Cloud PostgreSQL
-    url = f"postgresql://{safe_user}:{safe_password}@{DB_HOST}:{DB_PORT}/{DB_NAME}?sslmode=require"
+    # 1. Bevorzugt Streamlit Secrets nutzen (für Streamlit Cloud)
+    try:
+        import streamlit as st
+        if "DATABASE_URL" in st.secrets:
+            return create_engine(st.secrets["DATABASE_URL"])
+    except Exception:
+        pass
+
+    # 2. Falls DATABASE_URL in der .env existiert
+    if os.getenv("DATABASE_URL"):
+        return create_engine(os.getenv("DATABASE_URL"))
+
+    # 3. Fallback: Einzelne Umgebungsvariablen für lokale Entwicklung
+    db_host = os.getenv("DB_HOST", "localhost")
+    db_port = os.getenv("DB_PORT", "5432")
+    db_name = os.getenv("DB_NAME", "olympics_db")
+    db_user = os.getenv("DB_USER", "postgres")
+    db_pass = os.getenv("DB_PASSWORD") or os.getenv("DB_PASS", "")
+
+    safe_password = urllib.parse.quote_plus(db_pass)
+    safe_user = urllib.parse.quote_plus(db_user)
+
+    url = f"postgresql://{safe_user}:{safe_password}@{db_host}:{db_port}/{db_name}"
     return create_engine(url)
